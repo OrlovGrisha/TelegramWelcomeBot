@@ -1,0 +1,61 @@
+credentials.json
+appsettings.json
+appsettings.Development.json
+
+# Build folders
+bin/
+obj/
+
+# Rider IDE files
+.idea/
+*.DotSettings.user
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider local history
+.idea/.idea.TgWelcomeBot/.idea/localHistory/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Others
+*.cache
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.obj
+*.idb
+*.iobj
+*.ipdb
+
+# Test results
+TestResults/
+
+# User-specific files
+*.userprefs
+*.userosscache
+
+# Ignore launch settings
+Properties/launchSettings.json
+
+# Ignore Rider workspace files
+*.iml

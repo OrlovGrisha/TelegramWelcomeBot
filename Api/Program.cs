@@ -1,3 +1,4 @@
+using Application;
 using GoogleSheets;
 using Persistence;
 using Telegram;
@@ -12,6 +13,7 @@ public class Program
 
         builder.Services.AddTelegramInfrastructure(builder.Configuration["TelegramBot:Token"]!);
         builder.Services.AddTelegramPersistence(builder.Configuration.GetConnectionString("DefaultConnection")!);
+        builder.Services.AddApplicationServices();
         builder.Services.AddGoogleSheets("credentials.json");
 
         var app = builder.Build();

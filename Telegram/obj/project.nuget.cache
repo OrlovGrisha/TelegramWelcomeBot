@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GOJnKsxmt6k=",
+  "dgSpecHash": "D6TjvV70RI4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Григорий\\MyProjects\\Тестовое в биогеном\\TgWelcomeBot\\Telegram\\Telegram.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Григорий\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.7\\microsoft.extensions.configuration.abstractions.9.0.7.nupkg.sha512",
     "C:\\Users\\Григорий\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
-    "C:\\Users\\Григорий\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512",
+    "C:\\Users\\Григорий\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512",
     "C:\\Users\\Григорий\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.7\\microsoft.extensions.diagnostics.abstractions.9.0.7.nupkg.sha512",
     "C:\\Users\\Григорий\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.7\\microsoft.extensions.fileproviders.abstractions.9.0.7.nupkg.sha512",
     "C:\\Users\\Григорий\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.7\\microsoft.extensions.hosting.abstractions.9.0.7.nupkg.sha512",

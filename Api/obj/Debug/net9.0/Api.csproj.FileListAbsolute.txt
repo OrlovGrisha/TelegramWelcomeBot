@@ -68,3 +68,4 @@ C:\Users\Григорий\MyProjects\Тестовое в биогеном\TgWelc
 C:\Users\Григорий\MyProjects\Тестовое в биогеном\TgWelcomeBot\Api\bin\Debug\net9.0\GoogleSheets.dll
 C:\Users\Григорий\MyProjects\Тестовое в биогеном\TgWelcomeBot\Api\bin\Debug\net9.0\GoogleSheets.pdb
 C:\Users\Григорий\MyProjects\Тестовое в биогеном\TgWelcomeBot\Api\bin\Debug\net9.0\credentials.json
+C:\Users\Григорий\MyProjects\Тестовое в биогеном\TgWelcomeBot\Api\obj\Debug\net9.0\Api.sourcelink.json

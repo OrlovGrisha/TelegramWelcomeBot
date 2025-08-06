@@ -126,7 +126,7 @@
       "Microsoft.Extensions.Caching.Memory/9.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "9.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.7",
           "Microsoft.Extensions.Options": "9.0.7",
           "Microsoft.Extensions.Primitives": "9.0.7"
@@ -156,7 +156,7 @@
       },
       "Microsoft.Extensions.DependencyInjection/9.0.1": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
@@ -165,17 +165,17 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.7": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.8": {
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.725.31616"
+            "fileVersion": "9.0.825.36511"
           }
         }
       },
       "Microsoft.Extensions.Diagnostics.Abstractions/9.0.7": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
           "Microsoft.Extensions.Options": "9.0.7"
         },
         "runtime": {
@@ -199,7 +199,7 @@
       "Microsoft.Extensions.Hosting.Abstractions/9.0.7": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.7",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
           "Microsoft.Extensions.Diagnostics.Abstractions": "9.0.7",
           "Microsoft.Extensions.FileProviders.Abstractions": "9.0.7",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.7"
@@ -226,7 +226,7 @@
       },
       "Microsoft.Extensions.Logging.Abstractions/9.0.7": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -237,7 +237,7 @@
       },
       "Microsoft.Extensions.Options/9.0.7": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
           "Microsoft.Extensions.Primitives": "9.0.7"
         },
         "runtime": {
@@ -251,7 +251,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.7",
           "Microsoft.Extensions.Configuration.Binder": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
           "Microsoft.Extensions.Options": "9.0.7",
           "Microsoft.Extensions.Primitives": "9.0.7"
         }
@@ -346,7 +346,8 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8"
         },
         "runtime": {
           "Application.dll": {
@@ -367,7 +368,7 @@
         "dependencies": {
           "Application": "1.0.0",
           "Google.Apis.Sheets.v4": "1.70.0.3819",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8"
         },
         "runtime": {
           "GoogleSheets.dll": {
@@ -508,12 +509,12 @@
       "path": "microsoft.extensions.dependencyinjection/9.0.1",
       "hashPath": "microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.7": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iPK1FxbGFr2Xb+4Y+dTYI8Gupu9pOi8I3JPuPsrogUmEhe2hzZ9LpCmolMEBhVDo2ikcSr7G5zYiwaapHSQTew==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.7",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
+      "sha512": "sha512-xY3lTjj4+ZYmiKIkyWitddrp1uL5uYiweQjqo4BKBw01ZC4HhcfgLghDpPZcUlppgWAFqFy9SgkiYWOMx365pw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.8",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
     },
     "Microsoft.Extensions.Diagnostics.Abstractions/9.0.7": {
       "type": "package",

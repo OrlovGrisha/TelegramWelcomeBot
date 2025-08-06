@@ -25,11 +25,4 @@ public class GoogleSheetsService : IGoogleSheetsService
         request.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.RAW;
         await request.ExecuteAsync();
     }
-
-    public async Task ClearCellsAsync(string range)
-    {
-        var request = _sheetsService.Spreadsheets.Values.Clear(new ClearValuesRequest(), _spreadsheetId, range);
-        
-        await request.ExecuteAsync();
-    }
 }

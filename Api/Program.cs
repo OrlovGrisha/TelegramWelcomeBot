@@ -1,6 +1,7 @@
 using Application;
 using GoogleSheets;
 using Persistence;
+using Redis;
 using Telegram;
 
 namespace Api;
@@ -13,6 +14,7 @@ public class Program
 
         builder.Services.AddTelegramInfrastructure(builder.Configuration["TelegramBot:Token"]!);
         builder.Services.AddTelegramPersistence(builder.Configuration.GetConnectionString("DefaultConnection")!);
+        builder.Services.AddRedis();
         builder.Services.AddApplicationServices();
         builder.Services.AddGoogleSheets("credentials.json");
 

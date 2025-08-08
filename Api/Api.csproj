@@ -14,6 +14,7 @@
     <ItemGroup>
       <ProjectReference Include="..\GoogleSheets\GoogleSheets.csproj" />
       <ProjectReference Include="..\Persistence\Persistence.csproj" />
+      <ProjectReference Include="..\Cache\Cache.csproj" />
       <ProjectReference Include="..\Telegram\Telegram.csproj" />
     </ItemGroup>
 

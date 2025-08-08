@@ -23,8 +23,7 @@ public class TelegramUpdateHandler : IUpdateHandler
         _commandHandler.RegisterCommand(new StartCommand());
         _commandHandler.RegisterCommand(new RegisterCommand(_stateManager));
     }
-
-    // Реализовать State Machine и Command Pattern вместе
+    
     public async Task HandleUpdateAsync(ITelegramBotClient telegramBotClient, Update update, CancellationToken cancellationToken)
     {
         long chatId = update.Message.Chat.Id;
@@ -32,7 +31,7 @@ public class TelegramUpdateHandler : IUpdateHandler
 
         if (await _commandHandler.TryExecuteCommand(chatId, message, _messageManager)) return;
         
-        var state = _stateManager.GetState(chatId);
+        var state = await _stateManager.GetState(chatId);
         await state.HandleMessage(chatId, message, _messageManager);
     }
 

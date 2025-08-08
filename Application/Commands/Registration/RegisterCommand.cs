@@ -16,7 +16,7 @@ public class RegisterCommand : ICommand
 
     public async Task Execute(long chatId, IBotService botService)
     {
-        _stateManager.SetState(chatId, new WaitingForNameState(_stateManager));
+        await _stateManager.SetState(chatId, new WaitingForNameState(_stateManager));
         await botService.SendMessageToUser(chatId, "Введи свое ФИО и класс в корректном формате \n\nИванов Иван Иванович, 10А");
     }
 }
